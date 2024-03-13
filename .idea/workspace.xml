@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff6d0a7d-73bb-46dc-b9a4-288c3d6516f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POO-Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_05/out/production/Ex_05/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_05/out/production/Ex_05/.idea/Ex_05.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_05/out/production/Ex_05/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_05/out/production/Ex_05/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_05/out/production/Ex_05/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_05/out/production/Ex_05/Aluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_05/out/production/Ex_05/Principal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_06/out/production/Ex_06/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_06/out/production/Ex_06/.idea/Ex_06.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_06/out/production/Ex_06/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_06/out/production/Ex_06/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_06/out/production/Ex_06/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_06/out/production/Ex_06/Aluno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_06/out/production/Ex_06/Disciplina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex_06/out/production/Ex_06/Principal.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2ddZdMHWZuVJCpKRDeS0XNu32ln" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/kevin/Desktop/Ciência da Computação/3º período/Linguagens de Programação/Java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff6d0a7d-73bb-46dc-b9a4-288c3d6516f3" name="Changes" comment="" />
+      <created>1710340001937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710340001937</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
