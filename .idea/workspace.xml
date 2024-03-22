@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ff6d0a7d-73bb-46dc-b9a4-288c3d6516f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO-Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex_05/out/production/Ex_05/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex_05/out/production/Ex_05/.idea/Ex_05.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex_05/out/production/Ex_05/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex_05/out/production/Ex_05/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex_05/out/production/Ex_05/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex_05/out/production/Ex_05/Aluno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex_05/out/production/Ex_05/Principal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex_06/out/production/Ex_06/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex_06/out/production/Ex_06/.idea/Ex_06.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex_06/out/production/Ex_06/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex_06/out/production/Ex_06/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex_06/out/production/Ex_06/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex_06/out/production/Ex_06/Aluno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex_06/out/production/Ex_06/Disciplina.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex_06/out/production/Ex_06/Principal.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex_07/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex_07/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +20,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2ddZdMHWZuVJCpKRDeS0XNu32ln" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,7 +38,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/kevin/Desktop/Ciência da Computação/3º período/Linguagens de Programação/Java"
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "21",
+    "last_opened_file_path": "C:/Users/kevin/Desktop/Ciência da Computação/3º período/POO/POO-Java/Ex_08"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
