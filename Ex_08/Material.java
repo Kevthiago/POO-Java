@@ -2,7 +2,7 @@ public class Material {
     protected String titulo;
     protected int anoPublicacao;
      //contrutor
-    public Material(String titulo, int anoPublicacao){
+    public Material(String titulo, int anoPublicacao, boolean disponivel){
         this.titulo = titulo;
         this.anoPublicacao = anoPublicacao;
     }

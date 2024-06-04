@@ -3,8 +3,8 @@ public class Main {
         int diasAtraso = 0; // Atribuir um valor para diasAtraso
 
         // Instanciando objetos
-        Material livro1 = new Material("1984", 2018);
-        Material revista1 = new Material("ISTOÉ", 2024);
+        Material livro1 = new Material("1984", 2018, disponivel);
+        Material revista1 = new Material("ISTOÉ", 2024, disponivel);
 
         Emprestimo teste1 = new LongoPrazo(2, 5);
         Emprestimo teste2 = new CurtoPrazo(1.5, 8);
