@@ -1,25 +1,29 @@
 public class Revista extends Material{
-    //Atributos específicos.
-    private int quantidadePaginas;
-    private String editora;
+    //Atributos
+    int paginas;
+
     //Construtor
-    public Revista(String titulo, int id,String editora, boolean disponivel) {
-        super(titulo, id, disponivel);
-        this.editora = editora;
+    public Revista(int id, String titulo, boolean disponivel, int paginas) {
+        super(id, titulo, disponivel);
+        this.paginas = paginas;
     }
 
     //Getters and Setters
-    public String getEditora() {
-        return editora;
+    public int getPaginas() {
+        return paginas;
     }
 
-    public void setEditora(String editora) {
-        this.editora = editora;
+    public void setPaginas(int paginas) {
+        this.paginas = paginas;
     }
 
-    //ToString
     @Override
     public String toString() {
-        return super.toString() + "Editora= " + editora;
+        return "Revista {" +
+                "id=" + id +
+                ", titulo='" + titulo + '\'' +
+                ", disponivel=" + disponivel + '\'' +
+                ", paginas=" + paginas +
+                '}';
     }
 }

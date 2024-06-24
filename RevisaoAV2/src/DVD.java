@@ -1,25 +1,30 @@
 public class DVD extends Material{
-    //Atributos específicos
-    private double duracao;
+    //Atributos
+    double duracaoMinutos;
 
     //Construtor
-    public DVD(String titulo, int id, double duracao, boolean disponivel) {
-        super(titulo, id,  disponivel);
-        this.duracao = duracao;
+    public DVD(int id, String titulo, boolean disponivel, double duracaoMinutos) {
+        super(id, titulo, disponivel);
+        this.duracaoMinutos = duracaoMinutos;
     }
 
     //Getters and Setters
-    public double getDuracao() {
-        return duracao;
+    public double getDuracaoMinutos() {
+        return duracaoMinutos;
     }
 
-    public void setDuracao(double duracao) {
-        this.duracao = duracao;
+    public void setDuracaoMinutos(double duracaoMinutos) {
+        this.duracaoMinutos = duracaoMinutos;
     }
 
-    //ToString
     @Override
     public String toString() {
-        return super.toString() + "Duração= " + duracao;
+        return "DVD {" +
+                "id=" + id +
+                ", titulo='" + titulo + '\'' +
+                ", disponivel=" + disponivel + '\'' +
+                ", duracaoMinutos=" + duracaoMinutos +
+                '}';
     }
 }
+

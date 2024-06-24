@@ -1,17 +1,25 @@
 public class Usuario {
     //Atributos
+    private int id;
     private String nome;
     private int emprestimosAtivos;
-    private int id;
 
     //Construtor
-    public Usuario(String nome, int emprestimosAtivos, int id) {
+    public Usuario(int id, String nome, int emprestimosAtivos) {
+        this.id = id;
         this.nome = nome;
         this.emprestimosAtivos = emprestimosAtivos;
-        this.id = id;
     }
 
     //Getters and Setters
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getNome() {
         return nome;
     }
@@ -28,31 +36,24 @@ public class Usuario {
         this.emprestimosAtivos = emprestimosAtivos;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    //ToString
-    @Override
-    public String toString() {
-        return "Usuario: " +
-                "Nome= '" + nome + '\'' +
-                ", Empréstimos Ativos= '" + emprestimosAtivos + '\'';
-    }
-
-    //Método para incrementar empréstimo
-    public void incrementarEmprestimo(){
-        emprestimosAtivos++;
-    }
-
-    //Método para decrementar empréstimo
-    public void decrementarEmprestimo(){
-        if (emprestimosAtivos > 0){
-            emprestimosAtivos--;
+    public void emprestimo(Material material){
+        if (material.isDisponivel()){
+            material.setDisponivel(false);
+            this.emprestimosAtivos++;
+            System.out.println("Material " + material.getTitulo() + " emprestado com sucesso para " + this.nome);
+        } else {
+            System.out.println("Material " + material.getTitulo() + " não está disponível");
         }
     }
+
+    public void devolver(Material material){
+        if (!material.isDisponivel()){
+            material.setDisponivel(true);
+            this.emprestimosAtivos--;
+            System.out.println("Material " + material.getTitulo() + " devolvido com sucesso por " + this.nome);
+        } else {
+            System.out.println("Material " + material.getTitulo() + " já está disponível");
+        }
+    }
+
 }

@@ -1,25 +1,30 @@
 public class Livro extends Material{
-    //Atributos específicos
-    private String autor;
+    //Atributos
+    String autor;
 
     //Construtor
-    public Livro(String titulo, int id, boolean disponivel, String autor) {
-        super(titulo, id, disponivel);
+    public Livro(int id, String titulo, boolean disponivel, String autor) {
+        super(id, titulo, disponivel);
         this.autor = autor;
     }
 
     //Getters and Setters
-    public String getautor() {
+    public String getAutor() {
         return autor;
     }
 
-    public void setautor(String autor) {
+    public void setAutor(String autor) {
         this.autor = autor;
     }
 
-    //ToString
     @Override
     public String toString() {
-        return super.toString() + "Autor= " + autor;
+        return "Livro {" +
+                "id=" + id +
+                ", titulo='" + titulo + '\'' +
+                ", disponivel=" + disponivel + '\'' +
+                ", autor='" + autor +
+                '}';
     }
 }
+
